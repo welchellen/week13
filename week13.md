@@ -14,4 +14,7 @@ The main difference between HTML and JSX is that JSX lets you use JavaScript ins
 Phase 4:
 The main challenge was figuring out how to connect my JavaScript functions to React using imports and exports. I checked my code and tested the webpage to make sure the data was being filtered correctly. Seeing only the favorite games displayed helped me know that everything was working.
 
+Phase 5:
+I had an issue with React not finding one of my files because it wasn't in the correct location. After fixing that, the program worked. I tested the favorite filter by adding another game and changing its favorite status. The AI tutor suggested that my use of props and .map() was correct and that I could improve the styling. I decided to keep my code simple since it meets the requirements. 
+
 
