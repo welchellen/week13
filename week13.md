@@ -11,4 +11,7 @@ I found using the termial really exciting. I had to install the node attachment 
 Phase 3:
 The main difference between HTML and JSX is that JSX lets you use JavaScript inside your HTML-like code with curly braces. Props allow the GameItem component to be reused because I can pass different game information into it without having to rewrite the component for every game.
 
+Phase 4:
+The main challenge was figuring out how to connect my JavaScript functions to React using imports and exports. I checked my code and tested the webpage to make sure the data was being filtered correctly. Seeing only the favorite games displayed helped me know that everything was working.
+
 

@@ -1,18 +1,15 @@
 
 import GameItem from "./Gameitem";
+import { RAW_GAMES, getFavoriteGames } from "./week13";
 
 function App() {
-  const games = [
-    { id: 1, title: "The Legend of Zelda", genre: "Adventure" },
-    { id: 2, title: "Elden Ring", genre: "RPG" },
-    { id: 3, title: "Stardew Valley", genre: "Simulation" }
-  ];
+  const favoriteGames = getFavoriteGames(RAW_GAMES);
 
   return (
     <div>
       <h1>My Digital Game Vault</h1>
 
-      {games.map(game => (
+      {favoriteGames.map(game => (
         <GameItem key={game.id} game={game} />
       ))}
     </div>
@@ -20,3 +17,4 @@ function App() {
 }
 
 export default App;
+
