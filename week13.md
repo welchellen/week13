@@ -1,0 +1,2 @@
+Phase 0
+I plan to use the game array to organize and display the games on a webpage using React. I will make cards showing each game's title, genre, and favorite status. I also want to add a filter so users can view only their favorites. The part I'm most unsure about is using React and JSX to display the games and making the filter work correctly.
